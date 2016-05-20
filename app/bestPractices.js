@@ -16,7 +16,6 @@ exports.bestPracticesAnswers = {
   },
 
   parseInt: function(num) {
-    console.log(parseInt(num))
     return parseInt(num, 10);
   },
 
