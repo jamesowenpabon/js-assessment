@@ -8,7 +8,6 @@ exports.numbersAnswers = {
   base10: function(str) {
     var digit = parseInt(str, 2);
     return(digit);
-
   },
 
   convertToBinary: function(num) {
