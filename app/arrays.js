@@ -65,7 +65,7 @@ exports.arraysAnswers = {
         return count;
   },
 
-  duplicates: function(arr) { 
+  duplicates: function(arr) {
       arr.sort();
       var dups = arr.filter(function(el,i,a)  {
           return (arr[i] === arr[i+1] && arr[i] !== arr[i-1]);
